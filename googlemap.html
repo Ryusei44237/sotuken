@@ -1,31 +1,44 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>グーグルマップ</title>
-</head>
-<script src="http://maps.google.com/maps/api/js?key={AIzaSyAsmf_OIg2bZLSvyTuwrCnlrR6qXs4LQFw}&language=ja"></script>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsmf_OIg2bZLSvyTuwrCnlrR6qXs4LQFw&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
 
-<style>
-html { height: 100% }
-body { height: 100% }
-#map { height: 100%; width: 100%}
-</style>
-</head>
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      "use strict";
 
-<body>
-<div id="map"></div>
+      let map;
 
-<script>
-var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516);
-var Options = {
- zoom: 15,      //地図の縮尺値
- center: MyLatLng,    //地図の中心座標
- mapTypeId: 'roadmap'   //地図の種類
-};
-var map = new google.maps.Map(document.getElementById('map'), Options);
-</script>
-
-</body>
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: {
+            lat: -34.397,
+            lng: 150.644,
+          },
+          zoom: 8,
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
 </html>
