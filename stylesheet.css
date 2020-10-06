@@ -1,12 +1,11 @@
+body{
+  margin: 0px 400px 0px 400px;
+}
 .card-deck {
-  padding: 0 64px 0 64px;
+  padding: 0 100px 0 100px;
 }
-body{ 
-  background-color:#dddddd;
-  color : #000000;
-  margin-right: auto;
-  margin-left : auto;
-  width:700px;
-  font-size:62.5%;
+.carousel-inner{
+  background-color: black;
+  text-align: center;
 }
-
+.
