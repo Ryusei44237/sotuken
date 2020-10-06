@@ -1,10 +1,19 @@
 body{
-  margin: 0px 400px 0px 400px;
+  margin: 70px 400px 0px 400px;
+}
+header{
+  position: fixed;            /* ヘッダーの固定 */
+  top: 0px;                   /* 位置(上0px) */
+  left: 0px;                  /* 位置(右0px) */
+  width: 100%;                /* 横幅100%　*/
+  height: 140px;
+  z-index: 2;
 }
 .card-deck {
   padding: 0 100px 0 100px;
 }
 .carousel-inner{
-  background-color: black;
+  background-color: #EEEEEE;
   text-align: center;
+  z-index: 1;
 }
