@@ -1,5 +1,5 @@
 body{
-  margin: 70px 400px 0px 400px;
+  
 }
 header{
   position: fixed;            /* ヘッダーの固定 */
@@ -13,6 +13,7 @@ header{
   padding: 0 100px 0 100px;
 }
 .carousel-inner{
+  margin-top: 56px;
   background-color: #EEEEEE;
   text-align: center;
   z-index: 1;
