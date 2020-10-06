@@ -1,6 +1,12 @@
 .card-deck {
   padding: 0 64px 0 64px;
 }
-body{
-  width: 150;
+body{ 
+  background-color:#dddddd;
+  color : #000000;
+  margin-right: auto;
+  margin-left : auto;
+  width:700px;
+  font-size:62.5%;
 }
+
