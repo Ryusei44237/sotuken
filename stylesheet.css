@@ -1,3 +1,6 @@
 .card-deck {
   padding: 0 64px 0 64px;
 }
+body{
+  width: 150;
+}
