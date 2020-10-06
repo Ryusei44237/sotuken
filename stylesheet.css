@@ -1,5 +1,5 @@
 body{
-  
+  z-index: 1;
 }
 header{
   position: fixed;            /* ヘッダーの固定 */
@@ -17,4 +17,14 @@ header{
   background-color: #EEEEEE;
   text-align: center;
   z-index: 1;
+}
+.postbutton{
+  margin-left: 30px;
+}
+.searchform{
+  margin-left: 650px;
+}
+.modal.fade{
+
+z-index:9998;
 }
