@@ -1,5 +1,6 @@
 body{
   z-index: 1;
+  margin-top: 50px;
 }
 header{
   position: fixed;            /* ヘッダーの固定 */
