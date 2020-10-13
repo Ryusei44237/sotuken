@@ -15,27 +15,28 @@ body{
   .nav-tabs {
 	border-bottom:none;
   }
-  
-  
-  
   .nav-tabs .nav-link.active {
 	background-color:#e2e2e2;
 	border-bottom:#e2e2e2;
 	font-weight: bold;
   }
-  
-  .tab-pane.active .tab-pane-header {
+    .tab-pane.active .tab-pane-header {
 	padding:2rem;
 	background-color:#e2e2e2;
 	border-top-right-radius: .5rem;
 	border-top-left-radius: .5rem;
 	margin-bottom:1rem;
   }
-  
-  .tab-pane:first-child .tab-pane-header {
+    .tab-pane:first-child .tab-pane-header {
 	border-top-left-radius: 0;
   }
-  /*  */
+  .username{
+	  margin: 10px 0px 20px 20px;
+  }
+  .bg-white{
+	  margin-bottom: 15px;
+	  margin-left: 20px;
+  }
   .insta {
 	display: flex;
 	display: -webkit-flex;
@@ -71,9 +72,6 @@ body{
 	width: auto;
 	height: 100%;
 }
-
-
-
 .insta > div > a > span {/*classがfaのアイコンに対して*/
 	position: absolute;
 	top: 10%;
@@ -86,13 +84,10 @@ body{
 	font-size: 12px;/*サイズ*/
 	color: rgba(255, 255, 255, 0.6);/*半透明*/
 }
-
-
 .insta > div > a > span i:nth-child(2) {
 	opacity: 0.55;
 	color: red;
 }
-
 .btn-social-square {
 	display: inline-block;
 	text-decoration: none;
