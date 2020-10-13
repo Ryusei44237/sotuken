@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!--ここまで-->
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/86a6bb02b6.js" crossorigin="anonymous"></script>
+  <!-- end -->
   <title>ですと</title>
 </head>
 
@@ -63,6 +66,23 @@
 </div>
 
 <!--ここまで投稿フォーム-->
+
+<!-- setting button -->
+<!-- Default dropleft button -->
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fas fa-cog"></i>
+
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button"><a href="">設定</a></button>
+    <button class="dropdown-item" type="button"><a href="">ガイドライン</a></button>
+    <button class="dropdown-item" type="button"><a href="">作成者</a></button>
+  </div>
+</div>
+
+<!-- setting button end -->
+
 </nav>
 <!--ナビバー終了-->
   </header>
@@ -88,7 +108,7 @@
               <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">画像一覧</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">その他</a>
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">アカウント管理</a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -101,12 +121,31 @@
                       <img src="C:\Users\SYS-4191149\Desktop\sotuken\image\沖縄海.jpg" alt="ユーザのトップ画像" class="rounded-circle" style="margin-left: 0px; height: 30px;width: 30px;">
                       user name @acount id
                       <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                      <!--twitter-->
+                      <a class="btn-social-square btn-social-square--twitter">
+                        <i class="fa fa-twitter">t</i>
+                      </a>
+                      <!--facebook-->
+                      <a class="btn-social-square btn-social-square--facebook">
+                        <i class="fa fa-facebook">f</i>
+                      </a>
+                      <!--はてぶ-->
+                      <a class="btn-social-square btn-social-square--hatebu">
+                        B!
+                      </a>
+                      <!--pocket-->
+                      <a class="btn-social-square btn-social-square--pocket">
+                        <i class="fa fa-get-pocket">p</i>
+                      </a>
+                      <!--feedly-->
+                      <a class="btn-social-square btn-social-square--feedly">
+                        <i class="fa fa-rss">dly</i>
+                      </a>                
                     </td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>
-              
                     </td>
                   </tr>
                 </tbody>
@@ -176,8 +215,79 @@
             
             </div>
             </div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-          </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <!--ここにその他-->
+
+              <div class="acount-form">
+                <form>
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                      <label for="validationServer01">First name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationServer02">Last name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationServerUsername">Username</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        </div>
+                        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationServer03">City</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationServer04">State</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationServer05">Zip</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                      <label class="form-check-label" for="invalidCheck3">
+                        Agree to terms and conditions
+                      </label>
+                      <div class="invalid-feedback">
+                        You must agree before submitting.
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+              </div>
+              <!-- ここまで -->
+              </div>
+            </div>
     <!-- マイページ終わり -->
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
