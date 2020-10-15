@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- end -->
+    <!-- font awesome CSS -->
+    <script src="https://kit.fontawesome.com/86a6bb02b6.js" crossorigin="anonymous"></script>
+    <!-- end -->
     <title>トップページ</title>
 
     <!-- 投稿ボタンを押下した際に出てくる投稿モーダル -->
@@ -42,54 +45,61 @@
       </div>
     </div>
     <!-- 投稿モーダルここまで -->
+    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <a href="">環境設定</a>
+          <a href="">ガイドライン</a>
+          <a href="">ログアウト</a>
+          <!-- <a href=""></a> -->
+        </div>
+      </div>
+    </div>
+    <!--  -->
 
   </head>
   <!-- ヘッド終了　以下body -->
   <body>
   <!-- hedear開始 -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="sample.html">
-          <img src="../image/空.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-          卒研ページ
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="sample.html">
+        <img src="../image/空.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+        卒研ページ
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="login.html">ログイン<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="test.html">登録</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="mypage.html">マイページ</a>
+          </li>
+        </ul>
+        <!--検索フォーム-->
+        <div class="searchform">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="キーワード入力" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
+          </form>
+        </div>
+        <div class="postbutton">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            投稿ボタン
+          </button>
+        </div>
+          <!-- Small modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">
+          <i class="fas fa-cog"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="login.html">ログイン<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link " href="sign-up.html">登録</a>
-            </li>
-            <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="mypage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                マイページ
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">過去投稿</a>
-                <a class="dropdown-item" href="#">投稿画像一覧</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">setting</a>
-              </div>
-            </li>
-          </ul>
-          <!--検索フォーム-->
-          <div class="searchform">
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="キーワード入力" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
-            </form>
-          </div>
-          <div class="postbutton">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-              投稿ボタン
-            </button>
-          </div>
-      </nav>
-    </header>
+    </nav>
+  </header>
     <!-- header終了 -->
 
     <!--ここからカルーセル機能-->

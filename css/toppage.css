@@ -20,10 +20,10 @@ header{
   z-index: 1;
 }
 .postbutton{
-  margin-left: 30px;
+  float: right;
 }
 .searchform{
-  margin-left: 650px;
+  float: right;
 }
 .modal.fade{
 

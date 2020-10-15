@@ -44,6 +44,17 @@
     </div>
   </div>
   <!-- 投稿モーダルここまで -->
+  <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <a href="">環境設定</a>
+        <a href="">ガイドライン</a>
+        <a href="">ログアウト</a>
+        <!-- <a href=""></a> -->
+      </div>
+    </div>
+  </div>
+  <!--  -->
 
 </head>
 <!-- ヘッド終了　以下body -->
@@ -66,19 +77,12 @@
           <li class="nav-item active">
             <a class="nav-link " href="test.html">登録</a>
           </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="mypage.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              マイページ
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">過去投稿</a>
-              <a class="dropdown-item" href="#">投稿画像一覧</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">setting</a>
-            </div>
+          <li class="nav-item active">
+            <a class="nav-link " href="mypage.html">マイページ</a>
           </li>
         </ul>
-        <!--検索フォーム-->
+        <!--素材-->
+      <div class="right-item">
         <div class="searchform">
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="キーワード入力" aria-label="Search">
@@ -90,6 +94,11 @@
             投稿ボタン
           </button>
         </div>
+        <!-- Small modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">
+          <i class="fas fa-cog"></i>
+        </button>
+      </div>
     </nav>
   </header>
   <!--
