@@ -9,9 +9,7 @@ body{
 	height: 140px;
 	z-index: 2;
   }
-  .right-item{
-	  text-align: right;
-  }
+  
   .modal.fade.bd-example-modal-sm{
 	z-index:9998;
   }
