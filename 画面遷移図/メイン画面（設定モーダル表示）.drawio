@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e" modified="2020-10-26T01:21:57.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="KbZq0jUW_QwD-IghUHL-" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-10-26T01:06:09.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="OqPLjzpzSJsMmYewqaza" version="13.6.5">
     <diagram id="WLWj0fb5QzhJuV7R6VAS" name="ページ1">
         <mxGraphModel dx="1120" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
@@ -11,10 +11,10 @@
                     <mxGeometry y="26" width="160" height="244" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.8_point_star" parent="1" vertex="1">
-                    <mxGeometry x="300" y="135" width="250" height="130" as="geometry"/>
+                    <mxGeometry x="340" y="135" width="250" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="「マイページボタン」を押す" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="357.5" y="188.75" width="135" height="22.5" as="geometry"/>
+                <mxCell id="5" value="「設定ボタン」を押す" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="188.75" width="135" height="22.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="" style="endArrow=classic;html=1;entryX=0.192;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="4" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -22,17 +22,17 @@
                         <mxPoint x="700" y="280" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="" style="endArrow=classic;html=1;entryX=-0.027;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="7" edge="1" source="4">
+                <mxCell id="10" value="" style="endArrow=classic;html=1;entryX=-0.027;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.796;exitY=0.515;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="7" edge="1" source="4">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="650" y="200" as="sourcePoint"/>
                         <mxPoint x="630" y="200" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="マイページ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="660" y="80" width="160" height="240" as="geometry"/>
+                <mxCell id="6" value="設定モーダル画面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="80" width="160" height="240" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="表示&#10;・ユーザ名&#10;・トップ画像&#10;・プロフィール文&#10;入力&#10;・検索キーワード&#10;操作&#10;・過去投稿タブ&#10;・過去画像タブ&#10;・アカウント管理タブ&#10;・設定ボタン" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="6" vertex="1">
+                <mxCell id="7" value="表示&#10;・設定モーダル&#10;&#10;入力&#10;&#10;&#10;操作&#10;・環境設定&#10;・ガイドライン&#10;・ログアウト&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="6" vertex="1">
                     <mxGeometry y="26" width="160" height="214" as="geometry"/>
                 </mxCell>
             </root>
