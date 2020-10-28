@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e" modified="2020-10-26T04:36:48.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="fLUkHtDA649yaMoJ0bWJ" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-10-28T01:25:22.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="a2EyymhU_dt9zO5zbRaE" version="13.6.5">
     <diagram id="3mR3qd5HLXd8aL_vuorG" name="ページ1">
         <mxGraphModel dx="1120" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
@@ -7,7 +7,7 @@
                 <mxCell id="2" value="ログイン画面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="40" y="120" width="220" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="表示&#10;・ID入力フォーム&#10;・パスワード入力フォーム&#10;・サインインボタン&#10;・「アカウント作成」リンク&#10;・「パスワードを忘れた場合」リンク&#10;入力&#10;・アカウントID&#10;・アカウントパスワード&#10;操作&#10;・サインインボタンを押す&#10;・「アカウント作成」&#10;リンクを押す&#10;・「パスワードを忘れた場合」&#10;リンクを押す" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="2" vertex="1">
+                <mxCell id="3" value="表示&#10;・ログイン&#10;・サインイン&#10;・アカウント作成&#10;・パスワードを忘れた場合&#10;&#10;入力&#10;&#10;操作&#10;・「サインイン」ボタンを押す&#10;・「アカウント作成」&#10;　リンクを押す&#10;・「パスワードを忘れた場合」&#10;　リンクを押す" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="2" vertex="1">
                     <mxGeometry y="26" width="220" height="224" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="" style="endArrow=classic;html=1;entryX=0.194;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="6" edge="1">
@@ -37,7 +37,7 @@
                 <mxCell id="14" value="入力&#10;・アカウントID&#10;・アカウント名&#10;・メールアドレス&#10;・パスワード&#10;・生年月日&#10;・電話番号&#10;&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="12" vertex="1">
                     <mxGeometry y="80" width="160" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="操作&#10;・登録ボタンを押す&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="12" vertex="1">
+                <mxCell id="15" value="操作&#10;・「アカウント登録」&#10;　ボタンを押す&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="12" vertex="1">
                     <mxGeometry y="200" width="160" height="50" as="geometry"/>
                 </mxCell>
             </root>
