@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2020-10-28T01:23:17.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="ZopR0jOKMJBwvmdh2YAZ" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-11-26T04:02:41.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="LZmcRYOndvUdmObCmqSE" version="13.6.5">
     <diagram id="3mR3qd5HLXd8aL_vuorG" name="ページ1">
-        <mxGraphModel dx="1120" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1118" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -34,7 +34,7 @@
                 <mxCell id="VZWWZLJk8qB1Wz1YRbqK-9" value="表示&#10;・タイトル&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="VZWWZLJk8qB1Wz1YRbqK-8" vertex="1">
                     <mxGeometry y="26" width="160" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="VZWWZLJk8qB1Wz1YRbqK-10" value="入力&#10;・アカウントID&#10;・アカウント名&#10;・メールアドレス&#10;・パスワード&#10;・生年月日&#10;・電話番号&#10;&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="VZWWZLJk8qB1Wz1YRbqK-8" vertex="1">
+                <mxCell id="VZWWZLJk8qB1Wz1YRbqK-10" value="入力&#10;・アカウント名&#10;・メールアドレス&#10;・パスワード&#10;・生年月日&#10;・電話番号&#10;&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="VZWWZLJk8qB1Wz1YRbqK-8" vertex="1">
                     <mxGeometry y="80" width="160" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="VZWWZLJk8qB1Wz1YRbqK-11" value="操作&#10;・「アカウント登録」&#10;　ボタンを押す&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="VZWWZLJk8qB1Wz1YRbqK-8" vertex="1">
